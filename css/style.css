@@ -1,17 +1,21 @@
-.debug nav{
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .debug nav{
     background-color: aqua;
     min-height: 150px;
-}
+} */
 
 .debug header{
     background-color: blueviolet;
     min-height: 500px;
 }
 
-.debug [class^="col"]{
+/* .debug [class^="col"]{
     min-height: 200px;
     background-color: bisque;
-}
+} */
 
 .debug .cooperative,
 .debug .plus,
