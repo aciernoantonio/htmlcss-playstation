@@ -14,7 +14,8 @@
 }
 
 .debug .cooperative,
-.debug .plus{
+.debug .plus,
+.debug .sales{
     height: 500px;
     background-color: blueviolet;
 }
