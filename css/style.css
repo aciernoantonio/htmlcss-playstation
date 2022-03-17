@@ -2,21 +2,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .debug nav{
-    background-color: aqua;
-    min-height: 150px;
-} */
-
-.debug header{
-    background-color: blueviolet;
-    min-height: 500px;
-}
-
-/* .debug [class^="col"]{
-    min-height: 200px;
-    background-color: bisque;
-} */
-
 .debug .cooperative,
 .debug .plus,
 .debug .sales,
@@ -28,4 +13,22 @@
 .debug footer{
     height: 500px;
     background-color: cadetblue;
+}
+
+#site_header{
+    position: relative;
+}
+
+.fixed_menu{
+    height: 112px;
+}
+
+.jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: calc(675px - 112px);
+    top: 112px;
 }
