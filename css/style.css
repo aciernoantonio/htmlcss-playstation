@@ -15,10 +15,6 @@
     background-color: cadetblue;
 }
 
-#site_header{
-    position: relative;
-}
-
 .fixed_menu{
     height: 112px;
 }
@@ -27,8 +23,7 @@
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
-    position: absolute;
     width: 100%;
-    height: calc(675px - 112px);
-    top: 112px;
+    height: 563px;
+    margin-top: 112px;
 }
