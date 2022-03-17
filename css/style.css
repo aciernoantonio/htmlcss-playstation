@@ -1,9 +1,14 @@
 .debug nav{
     background-color: aqua;
-    height: 150px;
+    min-height: 150px;
 }
 
 .debug header{
     background-color: blueviolet;
-    height: 500px;
+    min-height: 500px;
+}
+
+.debug [class^="col"]{
+    min-height: 200px;
+    background-color: bisque;
 }
