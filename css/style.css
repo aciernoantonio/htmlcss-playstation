@@ -26,3 +26,15 @@
     height: 563px;
     margin-top: 112px;
 }
+
+.bordered::after{
+    content: '';
+    
+    border-bottom: 2px solid rgb(25, 174, 219);
+    width: 100%;
+    display: block;
+}
+
+.opacity{
+    opacity: 50%;
+}
