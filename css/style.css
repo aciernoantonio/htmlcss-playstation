@@ -90,3 +90,42 @@
     box-shadow: inset 0 0 0 2px lightgray;
 }
 
+.carousel .row{
+    position: relative;
+}
+
+.jump_in:hover{
+    animation: jump_in 100s infinite;
+}
+
+@keyframes jump_in {
+    0%{
+        transform: translateY(0);
+    }
+
+    1%{
+        transform: translateY(-20px);
+    }
+
+    50%{
+        transform: translateY(-20px);
+    }
+
+    100%{
+        transform: translateY(-20px);
+    }
+}
+
+.jump_out{
+    animation: jump_out 1s;
+}
+
+@keyframes jump_out {
+    0%{
+        transform: translateY(-20px)
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
