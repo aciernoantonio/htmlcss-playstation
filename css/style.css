@@ -51,4 +51,42 @@
     background-color: #00439C;
 }
 
+.dropdown-item .col-1:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.dropdown-menu{
+    border: 0;
+    border-radius: 0;
+}
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0;
+} 
+
+.dropdown-item:hover{
+    background-color: white;
+    cursor: default;
+}
+
+.dropdown-item:focus{
+    background-color: white;
+    cursor: default;
+}
+
+.btn-dark:hover{
+    box-shadow: inset 0 0 0 2px white;
+}
+
+.btn-danger:hover{
+    box-shadow: inset 0 0 0 2px black;
+}
+
+.btn-primary:hover{
+    box-shadow: inset 0 0 0 2px white;
+}
+
+.btn-light:hover{
+    box-shadow: inset 0 0 0 2px lightgray;
+}
 
