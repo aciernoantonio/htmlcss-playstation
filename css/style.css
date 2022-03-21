@@ -2,11 +2,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.debug .now{
-    height: 500px;
-    background-color: blueviolet;
-}
-
 .debug footer{
     height: 500px;
     background-color: cadetblue;
@@ -51,6 +46,10 @@
 
 .plus{
     background-color: #BEBCBB;
+}
+
+.now{
+    background-color: #161C3B;
 }
 
 
