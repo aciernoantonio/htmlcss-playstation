@@ -15,14 +15,6 @@
     margin-top: 112px;
 }
 
-.bordered::after{
-    content: '';
-    
-    border-bottom: 2px solid rgb(25, 174, 219);
-    width: 100%;
-    display: block;
-}
-
 .opacity{
     opacity: 50%;
 }
@@ -128,4 +120,24 @@
     100%{
         transform: translateY(0);
     }
+}
+
+.products div:hover{
+    opacity: 100%;
+}
+
+.products .h-100:hover{
+    box-shadow: 0 0 0 0 black;
+    border-bottom: 2px solid rgb(25, 174, 219);
+
+}
+
+.active_item:active{
+    box-shadow: 0 0 0 0 black;
+    border-bottom: 2px solid rgb(25, 174, 219);
+}
+
+.bordered{
+    box-shadow: 0 0 0 0 black;
+    border-bottom: 2px solid rgb(25, 174, 219);
 }
