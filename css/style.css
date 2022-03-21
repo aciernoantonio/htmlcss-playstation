@@ -2,11 +2,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.debug footer{
-    height: 500px;
-    background-color: cadetblue;
-}
-
 .fixed_menu{
     height: 112px;
 }
@@ -50,6 +45,10 @@
 
 .now{
     background-color: #161C3B;
+}
+
+#site_footer{
+    background-color: #00439C;
 }
 
 
